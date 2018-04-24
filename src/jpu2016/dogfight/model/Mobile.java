@@ -1,11 +1,16 @@
 package jpu2016.dogfight.model;
 
 public class Mobile implements IMobile {
+	@SuppressWarnings("unused")
 	private int speed;
 
 	public Mobile(Direction Direction, Position Position, Dimension Dimension, int speed, String image) {
 	}
 	
+	public Mobile(int player, Direction direction, Position position, String image) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public void moveUp() {
 	}
 	public void moveRight() {
@@ -128,6 +133,10 @@ public class Mobile implements IMobile {
 	protected void finalize() throws Throwable {
 		// TODO Auto-generated method stub
 		super.finalize();
+	}
+
+	public void setSpeed(int speed) {
+		this.speed = speed;
 	}
 	
 }

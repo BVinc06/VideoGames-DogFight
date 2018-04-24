@@ -27,4 +27,20 @@ public class Position {
 		this.y = y;
 	}
 
+	public double getMaxX() {
+		return maxX;
+	}
+
+	public void setMaxX(double maxX) {
+		this.maxX = maxX;
+	}
+
+	public double getMaxY() {
+		return maxY;
+	}
+
+	public void setMaxY(double maxY) {
+		this.maxY = maxY;
+	}
+
 }
